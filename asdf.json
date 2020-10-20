@@ -1,0 +1,70 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 2,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 3,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1603212802515,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "Adds 2 + 2 to equal 4",
+          "location": null,
+          "status": "passed",
+          "title": "Adds 2 + 2 to equal 4"
+        },
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "Adds 2 + 2 to not equal 5",
+          "location": null,
+          "status": "passed",
+          "title": "Adds 2 + 2 to not equal 5"
+        },
+        {
+          "ancestorTitles": [],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/home/sam/dox/projects/jest_tutorial/functions.test.js:12:30)\n    at Object.asyncJestTest (/home/sam/dox/projects/jest_tutorial/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/sam/dox/projects/jest_tutorial/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/home/sam/dox/projects/jest_tutorial/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/sam/dox/projects/jest_tutorial/node_modules/jest-jasmine2/build/queueRunner.js:75:41"
+          ],
+          "fullName": "should be null",
+          "location": null,
+          "status": "failed",
+          "title": "should be null"
+        }
+      ],
+      "endTime": 1603212803352,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould be null\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 | \u001b[39mtest(\u001b[32m'should be null'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 12 | \u001b[39m  expect(functions\u001b[33m.\u001b[39misNull())\u001b[33m.\u001b[39mtoBeNull()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 | \u001b[39m})\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mfunctions.test.js\u001b[39m\u001b[0m\u001b[2m:12:30)\u001b[22m\u001b[2m\u001b[22m\n",
+      "name": "/home/sam/dox/projects/jest_tutorial/functions.test.js",
+      "startTime": 1603212803029,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}
